@@ -1,0 +1,114 @@
+body {
+    background-color:rgb(228, 247, 247);
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    color:rgb(19, 58, 72);
+}
+
+header {
+    width: 100%;
+}
+
+header .list {
+    background-color: rgb(91, 150, 239);
+    padding: 0 2em;
+    height: 100px;
+}
+
+header .logo {
+    width: 80px;
+    margin-left: 0;
+}
+
+header .logo img{
+    border-radius: 10px;
+}
+
+ul{
+    display: flex;
+}
+
+.list{
+    font-weight: 900;
+}
+
+.list li{
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    vertical-align: middle;
+    margin: 20px 0;
+    list-style: none;
+}
+ 
+.list li:not(.logo){
+    padding: 0 2em;
+}
+
+/*--about--*/
+.about_info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    gap: 20px;
+}
+
+.about_info > div{
+    flex: 1 1 0%;
+}
+
+.about_info img{
+    height: 75vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about_us{
+    margin-top: 60px;
+    height: 100%;
+}
+
+.about_info p{
+    padding-top: 30px;
+}
+
+.about_info button{
+    margin-left: 45%;
+    color: rgb(19, 58, 72);
+    border: solid 3px rgb(19, 58, 72);
+    text-align: center;
+    background-color:rgb(228, 247, 247);
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 0 40px;
+    border-radius: 10px;
+}
+
+.about_info button:hover{
+    background-color: rgb(158, 189, 243);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+    .about_us h3 {
+        font-size: 1.3rem;
+    }
+
+    .about_us p {
+        font-size: 0.9rem;
+    }
+
+    .about_us button h2 {
+        font-size: 1rem;
+    }
+
+    .about_info img {
+        width: 100%; 
+        height: auto; 
+        max-width: 100%; 
+        max-height: 100vh; 
+        object-position: center; 
+    }
+}

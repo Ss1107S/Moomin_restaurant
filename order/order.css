@@ -1,0 +1,173 @@
+body {
+    background-color:rgb(228, 247, 247);
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    color:rgb(19, 58, 72);
+}
+
+/*--header--*/
+header {
+    width: 100%;
+}
+
+header .list {
+    background-color: rgb(91, 150, 239);
+    padding: 0 2em;
+    height: 100px;
+}
+
+header .logo {
+    width: 80px;
+    margin-left: 0;
+}
+
+header .logo img{
+    border-radius: 10px;
+}
+
+ul{
+    display: flex;
+}
+
+.list{
+    font-weight: 900;
+}
+
+.list li{
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    vertical-align: middle;
+    margin: 20px 0;
+    list-style: none;
+}
+ 
+.list li:not(.logo){
+    padding: 0 2em;
+}
+
+/*--order--*/
+.order{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+    
+.order > div{
+    flex: 1 1 0%;
+    background-color: rgb(228, 247, 247);
+}
+
+.order .menucards1{
+    border: 1px solid rgb(91, 150, 239) ;
+    border-radius: 10px;
+    padding: 0 25px 15px;
+    width: 75%;
+    margin-left: 20%;
+}
+
+.order .terms a{
+    color:rgb(91, 150, 239) ;
+}
+
+.order .button a{
+    color: rgb(19, 58, 72);
+    text-decoration: none;
+}
+
+.order .text1{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1% 0;
+    align-items: center;
+}
+
+.order_button input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color:rgb(228, 247, 247);
+    border: 1px solid rgb(91, 150, 239) ;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 0;
+    width: 100%;
+}
+
+.order_button input:hover{
+    border-color: rgb(158, 189, 243);
+}
+
+.order_info button{
+    color: rgb(19, 58, 72);
+    border: solid 2px rgb(19, 58, 72);
+    background-color: rgb(228, 247, 247);;
+    text-align: center;
+    padding: 0 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+
+.order_info button:hover{
+    background-color:rgb(158, 189, 243);
+    cursor: pointer;
+}
+
+.order .order_header{
+    margin: 10% 10%;
+    height: 100%;
+}
+
+/*--wallpaper--*/
+.wallpaper{
+    margin-top: 20px;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.button > div{
+    flex: 1 1 0%;
+    background-color: rgb(228, 247, 247);
+}
+
+.wallpaper img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.wallpaper .first h1{
+    margin-left: 10%;
+    margin-top: 50%;
+    width: 40%;
+}
+
+.wallpaper .second h1{
+    margin-left: 35%;
+    margin-top: 15%;
+    width: 40%;
+}
+
+.wallpaper a{
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+
+.wallpaper h1{
+    color:  rgb(19, 58, 72);
+    border: 2px solid rgb(19, 58, 72);
+    background-color: rgb(91, 150, 239);
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.wallpaper h1:hover{
+    background-color: rgb(158, 189, 243);
+    cursor: pointer;
+}

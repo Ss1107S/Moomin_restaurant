@@ -95,33 +95,33 @@ ul{
 .order .fb::before{
     content: "\f09a";
     vertical-align: middle;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 6 Brands";
     color: rgb(19, 58, 72);
 }
 
 .order .inst::before{
     content: "\f16d";
     vertical-align: middle;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 6 Brands";
     color: rgb(19, 58, 72);
 }
 .order .tw::before{
     content: "\f099";
     vertical-align: middle;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 6 Brands";
     color: rgb(19, 58, 72);
 }
 .order .google::before{
     content: "\f1a0";
     vertical-align: middle;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 6 Brands";
     color: rgb(19, 58, 72);
 }
 
 .order .whatsapp::before{
     content: "\f232";
     vertical-align: middle;
-    font-family: "Font Awesome 6 Free";
+    font-family: "Font Awesome 6 Brands";
     color: rgb(19, 58, 72);
 
 }/*--wallpaper--*/
